@@ -1,24 +1,25 @@
 # Observability Blueprint
 
-Practical strategies for building effective observability in distributed and high-availability systems.
+Practical strategies for engineering high-cardinality monitoring, alerting, and system health tracking in distributed environments.
 
 ## Purpose
-This repository outlines approaches to monitoring, alerting, and measuring system health, with a focus on reducing alert fatigue and improving incident response.
+This repository outlines architectural approaches to observability, focusing on the correlation between **Metrics, Logs, and Traces** to reduce MTTR and eliminate alert fatigue.
 
-## Scope
-- Observability strategy and design
-- Metrics, logs, and traces correlation
-- Alerting best practices
-- SLI/SLO definition and usage
+## Core Pillars
+* **The Four Golden Signals:** Monitoring Latency, Traffic, Errors, and Saturation (Google SRE Standard).
+* **SLO-Based Alerting:** Shifting from "CPU is high" to "User Experience is degraded."
+* **Signal vs. Noise:** Strategies to ensure every alert is actionable.
 
 ## Key Components
-- Alerting guidelines to reduce noise
-- Dashboard structure and organization
-- SLI/SLO examples for reliability tracking
-- Monitoring strategies using tools like Datadog, Grafana, and Splunk
+| Component | Focus | Tools |
+| :--- | :--- | :--- |
+| **Alerting Strategy** | Reducing noise & fatigue | Datadog, PagerDuty |
+| **Dashboards** | Visualizing System Health | Grafana, AppDynamics |
+| **Log Aggregation** | Traceability & Root Cause | Splunk, CloudWatch |
+| **SLI/SLO Examples** | Reliability Tracking | Business-driven metrics |
 
 ## Why this matters
-Well-designed observability enables faster detection, better diagnosis, and more effective response to production issues.
+Well-designed observability enables faster detection and deeper diagnosis. In high-availability systems, observability is the difference between a 5-minute fix and a 2-hour outage.
 
-## Approach
-Focused on actionable insights over excessive data — prioritizing signal over noise to improve operational efficiency and system reliability.
+---
+*Focused on actionable insights over excessive data.*
