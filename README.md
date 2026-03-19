@@ -10,6 +10,10 @@ This repository outlines architectural approaches to observability, focusing on 
 * **SLO-Based Alerting:** Shifting from "CPU is high" to "User Experience is degraded."
 * **Signal vs. Noise:** Strategies to ensure every alert is actionable.
 
+## Documentation & Best Practices
+* [SRE Dashboard Design Checklist](./dashboard-design-checklist.md) - Standards for high-signal visualizations and the "5-Second Rule".
+* [Alerting Strategy Guide](./alert-fatigue-scenario.md) - Framework for reducing noise and improving incident response.
+
 ## Key Components
 | Component | Focus | Tools |
 | :--- | :--- | :--- |
